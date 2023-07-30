@@ -1,26 +1,31 @@
-# Задача 1
-# В модуль с проверкой даты добавьте возможность запуска в терминале с передачей даты на проверку. .
-
+# ------------------------------------------- 1 -----------------------------
+# В модуль с проверкой даты добавьте возможность
+# запуска в терминале с передачей даты на проверку.
 from sys import argv
 
-def calend(date: str):
-    day, month, year = map(int, date.split('.'))
-    print (day, month, year)
-    if 1 <= year <= 9999:
-        if month in [1, 3, 5, 7, 8, 10, 12] and 1 <= day <= 31:
-            return True
-        elif month in [4, 6, 9, 11] and 1 <= day <= 30:
-            return True
-        elif 1 <= day <= 28 + is_leap_year(year):
-            return True
+def is_leap(year :int) -> bool:
+    return not (year % 4 != 0 or year % 100 == 0 and year % 400 != 0)
+
+
+def valid(full_date: str) -> bool:
+    date, month, year = (int(item) for item in full_date.split('.'))
+    if year < 1 or year > 9999 or month < 1 or month > 12 or date < 1 or date > 31:
+        return False
+    if month in (4, 6, 9, 11) and date > 30:
+        return False
+    if month == 2 and is_leap(year) and date > 29:
+        return False
+    if month == 2 and not is_leap(year) and date > 28:
+        return False
+    return True
+
+
+if __name__ == "__main__":
+    if len(argv) != 2:
+        print("Использование: python date_validator.py <дата в формате DD.MM.YYYY>")
+    else:
+        input_date = argv[1]
+        if valid(input_date):
+            print("Дата существует.")
         else:
-            return False
-    return False
-
-
-def is_leap_year(year):
-    return year % 4 == 0 and year % 100 != 0 or year % 400 == 0
-
-def calend_tetminal():
-    date = argv[1]
-    print(calend(date))
+            print("Дата невозможна.")

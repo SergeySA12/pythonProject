@@ -1,0 +1,123 @@
+{
+  "D:\\\u0423\u0447\u0435\u0431\u0430\\Python\\pythonProject\\first\\venv_1\\Seminar_8": {
+    "File_manager": {
+      "object_size": 30796,
+      "object_type": "directory",
+      "parant_directory": "venv_1"
+    },
+    "data.csv": {
+      "object_size": 30,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    },
+    "data.json": {
+      "object_size": 149,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    },
+    "data.txt": {
+      "object_size": 128,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    },
+    "data1.json": {
+      "object_size": 20,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    },
+    "data2.json": {
+      "object_size": 110,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    },
+    "main.py": {
+      "object_size": 1890,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    },
+    "result.csv": {
+      "object_size": 0,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    },
+    "result.json": {
+      "object_size": 0,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    },
+    "result.pickle": {
+      "object_size": 0,
+      "object_type": "file",
+      "parant_directory": "Seminar_8"
+    }
+  },
+  "D:\\\u0423\u0447\u0435\u0431\u0430\\Python\\pythonProject\\first\\venv_1\\Seminar_8\\File_manager": {
+    "__pycache__": {
+      "object_size": 17993,
+      "object_type": "directory",
+      "parant_directory": "Seminar_8"
+    },
+    "create_file_json.py": {
+      "object_size": 4634,
+      "object_type": "file",
+      "parant_directory": "File_manager"
+    },
+    "create_file_txt.py": {
+      "object_size": 562,
+      "object_type": "file",
+      "parant_directory": "File_manager"
+    },
+    "csv_to_json.py": {
+      "object_size": 1715,
+      "object_type": "file",
+      "parant_directory": "File_manager"
+    },
+    "directory_reference.py": {
+      "object_size": 3486,
+      "object_type": "file",
+      "parant_directory": "File_manager"
+    },
+    "json_to_csv.py": {
+      "object_size": 1480,
+      "object_type": "file",
+      "parant_directory": "File_manager"
+    },
+    "txt_to_json.py": {
+      "object_size": 926,
+      "object_type": "file",
+      "parant_directory": "File_manager"
+    }
+  },
+  "D:\\\u0423\u0447\u0435\u0431\u0430\\Python\\pythonProject\\first\\venv_1\\Seminar_8\\File_manager\\__pycache__": {
+    "create_file_json.cpython-311.pyc": {
+      "object_size": 4281,
+      "object_type": "file",
+      "parant_directory": "__pycache__"
+    },
+    "create_file_txt.cpython-311.pyc": {
+      "object_size": 1425,
+      "object_type": "file",
+      "parant_directory": "__pycache__"
+    },
+    "csv_to_json.cpython-311.pyc": {
+      "object_size": 2965,
+      "object_type": "file",
+      "parant_directory": "__pycache__"
+    },
+    "directory_reference.cpython-311.pyc": {
+      "object_size": 5387,
+      "object_type": "file",
+      "parant_directory": "__pycache__"
+    },
+    "json_to_csv.cpython-311.pyc": {
+      "object_size": 2377,
+      "object_type": "file",
+      "parant_directory": "__pycache__"
+    },
+    "txt_to_json.cpython-311.pyc": {
+      "object_size": 1558,
+      "object_type": "file",
+      "parant_directory": "__pycache__"
+    }
+  }
+}

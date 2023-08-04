@@ -1,0 +1,26 @@
+{
+    "D:\\\u0423\u0447\u0435\u0431\u0430\\Python\\pythonProject\\first\\venv_1": {
+        "object_type": "Directory",
+        "object_name": "Seminar_8",
+        "object_size": 113168,
+        "parant_directory": "venv_1"
+    },
+    "D:\\\u0423\u0447\u0435\u0431\u0430\\Python\\pythonProject\\first\\venv_1\\Seminar_8\\": {
+        "object_type": "File",
+        "object_name": "task_homework.py",
+        "object_size": 4871,
+        "parant_directory": ""
+    },
+    "D:\\\u0423\u0447\u0435\u0431\u0430\\Python\\pythonProject\\first\\venv_1\\Seminar_8\\File_manager": {
+        "object_type": "Directory",
+        "object_name": "__pycache__",
+        "object_size": 17993,
+        "parant_directory": "File_manager"
+    },
+    "D:\\\u0423\u0447\u0435\u0431\u0430\\Python\\pythonProject\\first\\venv_1\\Seminar_8\\File_manager\\__pycache__": {
+        "object_type": "File",
+        "object_name": "txt_to_json.cpython-311.pyc",
+        "object_size": 1558,
+        "parant_directory": "__pycache__"
+    }
+}
